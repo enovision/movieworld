@@ -1,0 +1,204 @@
+/*
+    Document   : styles.css
+    Created on : 08-Jun-2010, 21:15:19
+    Author     : J.vd.Merwe
+    Description:
+
+*/
+
+/* Extra padding on the detail info panel */
+.DetailInfo .x-panel-body {
+    padding : 20px !important;
+}
+
+.y-title-panel .x-panel-header {
+     height: 35px;
+}
+.y-title-panel .x-panel-header-text {
+     font-size : 16px;
+     padding : 0px !important;
+}
+.y-title-panel .x-panel-header-body {
+     height   : 28px;
+}
+/*------------------------------
+Hack to make this work in IE (8 at least)
+(framed header collapses at a height of n+4)
+--------------------------------*/
+.x-ie .y-title-panel .x-panel-header-body {
+    height: 28px;
+}
+
+.y-thumbnail {
+    /* border: 5px solid white; */
+}
+
+.y-panel-body {
+    /* background-color: #ffffff !important; */
+}
+
+/* this is a need-to-know !!! it's for the wordwrap in a cell of a table */
+.x-grid3-col-license {
+    white-space : normal !important;
+    word-wrap   : break-word !important;
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+    white-space: normal; /* changed from nowrap */
+}
+
+/* overruling the original css style from the core css */
+.x-form-checkbox, .x-toolbar-cell, .x-form-radio {
+    margin-top: 0px !important;
+}
+
+/*  this is to support the xlarge and xxl buttons  */
+.x-btn-noicon .x-btn-xlarge .x-btn-text {
+    height              : 48px;
+}
+.x-btn-noicon .x-btn-xxlarge .x-btn-text {
+    height              : 64px;
+}
+
+.x-btn-icon .x-btn-xlarge .x-btn-text {
+    height              : 48px;
+    width               : 48px;
+}
+.x-btn-icon .x-btn-xxlarge .x-btn-text {
+    height              : 64px;
+    width               : 64px;
+}
+
+.x-btn-text-icon .x-btn-icon-xlarge-left .x-btn-text {
+    background-position : 0 center;
+    background-repeat   : no-repeat;
+    padding-left        : 42px;
+    height              : 48px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-left .x-btn-text {
+    background-position : 0 center;
+    background-repeat   : no-repeat;
+    padding-left        : 58px;
+    height              : 64px;
+}
+
+.x-btn-text-icon .x-btn-icon-xlarge-right .x-btn-text {
+    background-position : right center;
+    background-repeat   : no-repeat;
+    padding-right       : 50px;
+    height              : 48px;
+}
+
+.x-btn-text-icon .x-btn-icon-xxlarge-right .x-btn-text {
+    background-position : right center;
+    background-repeat   : no-repeat;
+    padding-right       : 66px;
+    height              : 64px;
+}
+
+.x-btn-text-icon .x-btn-icon-xlarge-bottom .x-btn-text {
+    background-position : center bottom;
+    background-repeat   : no-repeat;
+    padding-bottom      : 48px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-bottom .x-btn-text {
+    background-position : center bottom;
+    background-repeat   : no-repeat;
+    padding-bottom      : 64px;
+}
+
+.x-btn-text-icon .x-btn-icon-xlarge-top .x-btn-text {
+    background-position : center 0;
+    background-repeat   : no-repeat;
+    padding-top         : 50px;
+}
+.x-btn-text-icon .x-btn-icon-xxlarge-top .x-btn-text {
+    background-position : center 0;
+    background-repeat   : no-repeat;
+    padding-top         : 64px;
+}
+
+.x-btn-text-icon .x-btn-icon-xxlarge-top .x-btn-text,
+.x-btn-text-icon .x-btn-icon-xlarge-top  .x-btn-text,
+.x-btn-text-icon .x-btn-icon-large-top   .x-btn-text,
+.x-btn-text-icon .x-btn-icon-medium-top  .x-btn-text,
+.x-btn-text-icon .x-btn-icon-small-top   .x-btn-text
+{
+    width: 95% !important;
+}
+
+/* updated cells */
+.y-grid3-updated-cell {
+    background: transparent no-repeat 0 0;
+}
+
+.y-grid3-updated-cell {
+    background-image : url('../img/updated.gif');
+}
+
+
+/* updated cells */
+.y-grid3-error-cell {
+    background: transparent no-repeat 0 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.y-grid3-error-cell {
+    background-image : url('../img/error.gif');
+}
+
+/* booked seminars cells */
+.y-grid3-booked-cell {
+    background: transparent no-repeat 0 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.x-toolbar.y-viewport {
+    /* background-color : #DEE6F1 !important; */
+    background-image : none !important;
+    border-style: none !important;
+}
+
+/* Extjs Adjustment CSS for inner cell grids */
+.x-grid-cell-inner {
+    overflow: visible !important;
+    white-space: normal !important;
+}
+
+/* Loading Mask, when program starts */
+
+#loading-mask {
+    position: absolute;
+    left:     0;
+    top:      0;
+    width:    100%;
+    height:   100%;
+    z-index:  20000;
+}
+
+#loading {
+    position: absolute;
+    left:     50%;
+    top:      50%;
+    padding:  2px;
+    z-index:  20001;
+    margin:   -176px 0 0 -313px;
+}
+
+#loading .loading-indicator {
+    padding:  176px 313px;
+    background-repeat: no-repeat;
+    background-image: url('../img/credits.jpg');
+}
+
+/* images in the download toolbar */
+.image-holder {
+  width: auto;
+  display: inline-block;
+}
+
+.image-holder img {
+  max-height: 68px;
+  min-height: 68px;
+  width: auto;
+}

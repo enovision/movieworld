@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <credits>
+        <credit>
+            <name>TMDb</name>
+            <description>TMDb, open movie database</description>
+            <version>Release 3</version>
+            <kudos>This program would not be without them</kudos>
+            <copyright>© 2006-2012 API 3.0 owned by TMDb, Inc.</copyright>
+            <license>Free and open license</license>
+            <website>www.themoviedb.org</website>
+        </credit>
+        <credit>
+            <name>Sencha</name>
+            <description>Ext JS</description>
+            <version>Release 4.2.0</version>
+            <kudos>If it looks good in browser, it must be from Sencha</kudos>
+            <copyright>© 2006-2014 Sencha, Inc.</copyright>
+            <license>Commercial License, licensed on J.J. van de Merwe</license>
+            <website>www.sencha.com</website>
+        </credit>
+        <credit>
+            <name>CodeIgniter</name>
+            <description>CodeIgniter</description>
+            <version>2.0.2b</version>
+            <kudos>Best PHP framework for our demand</kudos>
+            <copyright>© 2008-2012 EllisLab, Inc.</copyright>
+            <license>Public License</license>
+            <website>www.codeigniter.com</website>
+        </credit>
+        <credit>
+            <name>jQuery</name>
+            <description>jQuery</description>
+            <version>Release 1.7.2</version>
+            <kudos>For the finishing touch on optics</kudos>
+            <copyright>© 2012 The jQuery Project</copyright>
+            <license>You may use any jQuery project under the terms of either the MIT License or the
+                GNU General Public License (GPL) Version 2.
+            </license>
+            <website>www.jquery.com</website>
+        </credit>
+        <credit>
+            <name>Fancybox</name>
+            <description>Fancybox, by Fancybox</description>
+            <version>2.0</version>
+            <kudos>Jquery lightbox for Images and Video</kudos>
+            <copyright>© 2012 Fancybox</copyright>
+            <license>donate some if you like it</license>
+            <website>fancyapps.com/fancybox/</website>
+        </credit>
+        <credit>
+            <name>Fugue</name>
+            <description>Fugue Icons</description>
+            <version>last one</version>
+            <kudos>For the use of his icons</kudos>
+            <copyright>© 2012 Yusuke Kamiyamane, all rights reserved</copyright>
+            <license>Licensed under a Creative Commons Attribution 3.0 License.</license>
+            <website>p.yusukekamiyamane.com</website>
+        </credit>
+    </credits>
+</root>

@@ -1,0 +1,300 @@
+/* Search Grid  & Results Grid */
+@import 'variables.less';
+
+.results.wrap { 
+    float : left;
+    margin-left: 5px;
+    width : 60%;
+}
+
+.results.item.res-very-low,
+.results.item.res-low,
+.results.item.res-high {
+  height: 100%;
+}
+
+.results.item .thumb {
+    width : 64px !important;
+    float : left;
+}
+
+.results.item.res-low .thumb,
+.results.item.res-very-low .thumb {
+    width : 50px !important;
+}
+
+.results.item .name, .results.item .title {
+    font-size   : @dataview-title-font-size;
+    font-weight : bold;
+    margin      : 2px 0px 5px 0px;
+}
+
+.results.item .character {
+    font-size  : @dataview-medium-font-size;
+}
+
+.results.item.res-very-low .released,
+.results.item.res-low .released,
+.results.item.res-very-low .character
+.results.item.res-low .character {
+    font-size  : @dataview-small-font-size;
+}
+
+/* Detail Panel (Person) */
+.person_wrap {
+    padding: 20px;
+}
+
+/* Detail Panel (Movie + Tv + Person) */
+
+.detail_wrap_left {
+    float : left;
+    width : 30%;
+    padding-right : 30px;
+}
+
+.person_wrap .header,
+.detail_wrap_right .header,
+.detail_wrap_left .header {
+    font-size: @dataview-large-font-size;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.detail_wrap_left .data-header {
+    clear: both;
+    font-size: @dataview-medium-font-size;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.detail_wrap_left .data-field {
+    font-size: @dataview-medium-font-size;
+    padding-left: 30px;
+}
+
+.detail_wrap_left ul.data-field {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+.detail_wrap_left ul.data-field li {
+    float: left;
+    font-size: @dataview-medium-font-size;
+    color: #000;
+    background-color: @light-bg-color;
+    padding: 2px 10px 2px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.detail_wrap_right {
+    float : left;
+    width : 65%;
+}
+
+.person_wrap .data-field,
+.detail_wrap_right .data-field {
+    line-height: 25px;
+    font-size: @dataview-medium-font-size;
+}
+
+.movie_list li {
+    display      :inline;
+    margin-right : 8px;
+    /* background-color : #F0F0F0; */
+}
+
+/* credits */
+.credits.front .x-panel-body {
+    background : url('../img/credits_credits.jpg') !important;
+}
+
+.credits.wrap {
+    position : absolute;
+    bottom : 10px;
+    left : 10px;
+    font-size : @dataview-medium-font-size;
+    color : @base-color;
+}
+.credits.url,
+.credits.url a:link,
+.credits.url a:hover,
+.credits.url a:visited,
+.credits.url a:active {
+    text-decoration : none;
+    color : @base-color;
+}
+
+.credits_legal.wrap {
+    font-size : 14px;
+}
+
+.credits_legal p {
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+.credits.logo {
+    float : right;
+    right : 10px;
+}
+
+/* history panel */
+.history.thumb {
+    width : 32px;
+    heigth : 32px;
+    background : 30% 30%;
+}
+
+/* Workpanel Grid (movies */
+
+.work.movie.thumb {
+    width : 64px !important;
+    float : left;
+}
+
+.work.movie.wrap {
+    float : left;
+    margin-left: 5px;
+    width : 60%;
+}
+
+.work.movie.name {
+    font-size   : @dataview-medium-font-size;
+    font-weight : bold;
+    margin      : 10px 0px 5px 0px;
+    color       : @base-color;
+}
+
+.work.movie.character {
+    font-size  : @dataview-medium-font-size;
+}
+
+.work.movie.released {
+    margin-top : 5px;
+    font-size  : @dataview-medium-font-size;
+    font-style : italic;
+}
+
+/* Workpanel Grid (person) */
+
+.work.person.thumb {
+    width : 64px !important;
+    float : left;
+}
+
+.work.person.wrap {
+    float : left;
+    margin-left: 5px;
+    width : 60%;
+}
+
+.work.person.name {
+    font-size   : @dataview-medium-font-size;
+    font-weight : bold;
+    margin      : 10px 0px 5px 0px;
+    color       : @base-color;
+}
+
+.right.vote {
+    width : 220px !important;
+}
+
+/* Season Episodes Grid */
+.seasons.wrap {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+}
+
+.seasons.wrap.hidden {
+    display : none;
+}
+
+.seasons.grid img {
+    border: 2px solid #ccc !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.seasons .name {
+   font-size: @dataview-medium-font-size;
+   padding-bottom: 10px;
+   font-weight: bold;
+}
+
+/* Seasons Info panel */
+.tv-info.wrap {
+    padding : 5px;
+    height: 100%;
+    background-color: @light-bg-color;
+}
+
+.tv-info .thumb {
+    float : left;
+    max-height: 150px;
+}
+
+.tv-info .vote img {
+    border : none !important;
+    padding : 0 !important;
+    margin: 0 !important;
+}
+
+.tv-info .info {
+    float: left;
+    margin-left: 20px;
+    height: 150px;
+}
+
+.tv-info .info-2 {
+    float: left;
+    margin-left: 20px;
+    height: 150px;
+}
+
+.tv-info .title {
+    font-weight : bold;
+    font-size : @dataview-large-font-size;
+    padding-bottom: 10px;
+}
+
+.tv-info .vote {
+    width : 220px !important;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.tv-info .data-field,
+.tv-info .vote_count {
+    font-size: @dataview-medium-font-size;
+    padding-bottom: 5px;
+}
+.tv-info .data-field.country img {
+    border : none !important;
+    padding : 0 !important;
+    margin: 0 !important;
+    border-radius : 0px;
+}
+
+/* Release Info Window */
+
+.release-info .thumb {
+    float : left;
+    max-height : 92px;
+}
+
+.release-info .wrap {
+    float : left;
+    margin-left: 10px;
+}
+
+.release-info .released {
+    padding-top: 5px;
+    font-size: @dataview-small-font-size;
+    font-style: italic;
+}

@@ -1,0 +1,99 @@
+{
+  "packages": {
+    "ext": {
+      "creator": "Sencha",
+      "output": "${package.dir}/build",
+      "type": "framework",
+      "version": "5.1.0.107"
+    },
+    "ext-theme-base": {
+      "creator": "Sencha",
+      "output": "${package.dir}/build",
+      "type": "theme",
+      "version": "5.0.0"
+    },
+    "ext-theme-neptune": {
+      "creator": "Sencha",
+      "extend": "ext-theme-neutral",
+      "output": "${package.dir}/build",
+      "type": "theme",
+      "version": "5.0.0"
+    },
+    "ext-theme-neutral": {
+      "creator": "Sencha",
+      "extend": "ext-theme-base",
+      "output": "${package.dir}/build",
+      "type": "theme",
+      "version": "5.0.0"
+    },
+    "sencha-core": {
+      "creator": "Sencha",
+      "output": "${package.dir}/build",
+      "type": "code",
+      "version": "5.0.0"
+    }
+  },
+  "js": [{"path": "app.js"}],
+  "css": [{"path": "resources/Movieworld-all.css"}],
+  "compressor": {"type": "yui"},
+  "bootstrap": {
+    "base": "B:\\Movieworld.51",
+    "manifest": "bootstrap.json",
+    "microloader": "bootstrap.js",
+    "css": "bootstrap.css"
+  },
+  "output": {
+    "base": "B:\\Movieworld.51/build/production/Movieworld",
+    "deltas": {"enable": false},
+    "cache": {"enable": false},
+    "microloader": {"enable": true}
+  },
+  "cordova": {
+    "config": {
+      "name": "Movieworld",
+      "id": "com.domain.Movieworld",
+      "verbose": false,
+      "target": "",
+      "path": "B:\\Movieworld.51/cordova"
+    },
+    "js": [
+      {
+        "path": "cordova.js",
+        "remote": true,
+        "priority": 1000
+      }
+    ],
+    "microloader": "B:\\Movieworld.51\\.sencha\\app/Microloader.js",
+    "output": {
+      "base": "B:\\Movieworld.51/cordova/www",
+      "deltas": {"enable": false},
+      "cache": {"enable": false}
+    }
+  },
+  "phonegap": {
+    "config": {
+      "name": "Movieworld",
+      "id": "com.domain.Movieworld",
+      "remote": false,
+      "verbose": false,
+      "path": "B:\\Movieworld.51/phonegap"
+    },
+    "js": [
+      {
+        "path": "phonegap.js",
+        "remote": true,
+        "priority": 1000
+      }
+    ],
+    "microloader": "B:\\Movieworld.51\\.sencha\\app/Microloader.js",
+    "output": {
+      "base": "B:\\Movieworld.51/phonegap/www",
+      "deltas": {"enable": false},
+      "cache": {"enable": false}
+    }
+  },
+  "name": "Movieworld",
+  "framework": "ext",
+  "theme": "ext-theme-neptune",
+  "id": "ff05193f-cc76-4855-a3c1-7669202bb808"
+}

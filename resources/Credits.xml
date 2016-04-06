@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <credits>
+        <credit>
+            <name>TMDb</name>
+            <description>TMDb, open movie database</description>
+            <version>3.0</version>
+            <kudos>This program would not be without them</kudos>
+            <copyright>© 2006-2012 API 3.0 owned by TMDb, Inc.</copyright>
+            <license>Free and open license</license>
+            <website>www.themoviedb.org</website>
+        </credit>
+        <credit>
+            <name>Sencha</name>
+            <description>Ext JS</description>
+            <version>5.1.0.107</version>
+            <kudos>If it looks good in browser, it must be from Sencha</kudos>
+            <copyright>© 2006-2014 Sencha, Inc.</copyright>
+            <license>Open Source GPL 3.0</license>
+            <website>www.sencha.com</website>
+        </credit>
+        <credit>
+            <name>CodeIgniter</name>
+            <description>CodeIgniter</description>
+            <version>3.0</version>
+            <kudos>Best PHP framework for our demand</kudos>
+            <copyright>© 2014 - 2015, British Columbia Institute of Technology</copyright>
+            <license>MIT License</license>
+            <website>www.codeigniter.com</website>
+        </credit>
+        <credit>
+            <name>jQuery</name>
+            <description>jQuery</description>
+            <version>1.7.2</version>
+                <kudos>For the finishing touch on optics</kudos>
+            <copyright>© 2012 The jQuery Project</copyright>
+            <license>GNU General Public License (GPL) Version 2</license>
+            <website>www.jquery.com</website>
+        </credit>
+        <credit>
+            <name>Fancybox</name>
+            <description>Fancybox, by Fancybox</description>
+            <version>3.0</version>
+            <kudos>Jquery lightbox for Images and Video</kudos>
+            <copyright>© 2012 Fancybox</copyright>
+            <license>Creative Commons Attribution-NonCommercial 3.0</license>
+            <website>fancyapps.com/fancybox/</website>
+        </credit>
+        <credit>
+            <name>Fugue</name>
+            <description>Fugue Icons</description>
+            <version></version>
+            <kudos>For the use of his icons</kudos>
+            <copyright>© 2012 Yusuke Kamiyamane, all rights reserved</copyright>
+            <license>Creative Commons Attribution 3.0</license>
+            <website>p.yusukekamiyamane.com</website>
+        </credit>
+        <credit>
+            <name>fontAwesome</name>
+            <description>Font Awesome</description>
+            <version>4.3.0</version>
+            <kudos>Great glyphs on the panels and buttons</kudos>
+            <copyright>Created by Dave Gandy</copyright>
+            <license>MIT License</license>
+            <website>fortawesome.github.io/Font-Awesome/</website>
+        </credit>
+        <credit>
+            <name>videojs</name>
+            <description>Videojs, The open source HTML5 video player</description>
+            <version>4.12.5</version>
+            <kudos>Supports the Ext JS videoplayer</kudos>
+            <copyright>Brightcove, Inc.</copyright>
+            <license>Apache License, Version 2.0</license>
+            <website>www.videojs.com/</website>
+        </credit>
+    </credits>
+</root>

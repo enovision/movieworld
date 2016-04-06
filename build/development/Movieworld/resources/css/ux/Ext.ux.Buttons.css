@@ -1,0 +1,355 @@
+/*
+    Document   : Ext.ux.buttons
+    Created on : 5-jan-2010, 22:02:22
+    Author     : J.vd.Merwe
+    Description:
+       Only styles that relate to the buttons on the menu and buttons
+       This refers to the iconCls config parameter in the Extjs components
+
+*/
+.google {background-image: url(../../img/icons/google_icon.png) !important;}
+.vcard  {background-image: url(../../img/icons/vcard.png) !important;}
+.video  {background-image: url(../../img/icons/television.png) !important;}
+.money  {background-image: url(../../img/icons/money.png) !important;}
+.news   {background-image: url(../../img/icons/newspaper.png) !important;}
+
+.asc    {background-image: url(../../img/icons/arrow_up.png) !important;}
+.desc   {background-image: url(../../img/icons/arrow_down.png) !important;}
+
+.ok     {background-image: url(../../img/icons/accept.png) !important;}
+.ok2    {background-image: url(../../img/icons/reactor-bullet.png) !important;}
+.notok  {background-image: url(../../img/icons/cancel.png) !important;}
+.cancel  {background-image: url(../../img/icons/cancel.png) !important;}
+.option {background-image: url(../../img/icons/plugin.gif) !important;}
+.remove {background-image: url(../../img/icons/delete.gif) !important;}
+
+.information {background-image: url(../../img/icons/information.png) !important;}
+.connect     {background-image: url(../../img/icons/connect.png) !important;}
+
+.expand     {background-image: url(../../img/icons/expand-all.gif) !important;}
+.collapse   {background-image: url(../../img/icons/collapse-all.gif) !important;}
+.expand_1   {background-image: url(../../img/icons/application_side_expand.png) !important;}
+.collapse_1 {background-image: url(../../img/icons/application_side_contract.png) !important;}
+.expand_2   {background-image: url(../../img/icons/icon_collapse.png) !important;}
+.collapse_2 {background-image: url(../../img/icons/icon_expand.png) !important;}
+
+
+.cut   {background-image: url(../../img/icons/cut.png) !important;}
+.copy  {background-image: url(../../img/icons/page_white_copy.png) !important;}
+.edit  {background-image: url(../../img/icons/edit.png) !important;}
+.paste {background-image: url(../../img/icons/page_white_paste.png) !important;}
+.view  {background-image: url(../../img/icons/zoom.png) !important;}
+/* .format {background-image: url(../icons/disk.png) !important;} */
+.save {background-image: url(../../img/icons/disk.png) !important;}
+.delete {background-image: url(../../img/icons/delete.png) !important;}
+.accept {background-image: url(../../img/icons/accept.png) !important;}
+.cog {background-image: url(../../img/icons/cog.png) !important;}
+
+.attach {background-image: url(../../img/icons/attach.png) !important;}
+.add {background-image: url(../../img/icons/add.png) !important;}
+.undo {background-image: url(../../img/icons/arrow_undo.png) !important;}
+.redo {background-image: url(../../img/icons/arrow_redo.png) !important;}
+.refresh {background-image: url(../../img/icons/arrow_refresh.png) !important;}
+.fullscreen {background-image: url(../../img/icons/arrow_out.png) !important;}
+
+.error {background-image: url(../../img/icons/error.png) !important;}
+.search {background-image: url(../../img/icons/find.png) !important;}
+.wizard {background-image: url(../../img/icons/wand.png) !important;}
+.address_book {background-image: url(../../img/icons/book_open.png) !important;}
+.help {background-image: url(../../img/icons/help.png) !important;}
+
+.lock {background-image: url(../../img/icons/lock.png) !important;}
+.unlock {background-image: url(../../img/icons/lock_open.png) !important;}
+
+.protect {background-image: url(../../img/icons/key.png) !important;}
+.unprotect {background-image: url(../../img/icons/key_delete.png) !important;}
+
+.time {background-image: url(../../img/icons/time.png) !important;}
+.link {background-image: url(../../img/icons/link.png) !important;}
+.unlink {background-image: url(../../img/icons/link_break.png) !important;}
+.formatpainter {background-image: url(../../img/icons/paintbrush.png) !important;}
+.share {background-image: url(../../img/icons/hand_share.png) !important;}
+.shortcut {background-image: url(../../img/icons/shortcut.png) !important;}
+.rss {background-image: url(../../img/icons/feed.png) !important;}
+
+/* email */
+.mail {background-image: url(../../img/icons/email.png) !important;}
+.mail_add {background-image: url(../../img/icons/email_add.png) !important;}
+.mail_attach {background-image: url(../../img/icons/email_attach.png) !important;}
+.mail_delete {background-image: url(../../img/icons/email_delete.png) !important;}
+.mail_edit {background-image: url(../../img/icons/email_edit.png) !important;}
+.mail_error {background-image: url(../../img/icons/email_error.png) !important;}
+.mail_go {background-image: url(../../img/icons/email_go.png) !important;}
+.mail_open {background-image: url(../../img/icons/email_open.png) !important;}
+
+.phone {background-image: url(../../img/icons/telephone.png) !important;}
+.phone_add {background-image: url(../../img/icons/telephone_add.png) !important;}
+.phone_attach {background-image: url(../../img/icons/telephone_attach.png) !important;}
+.phone_delete {background-image: url(../../img/icons/telephone_delete.png) !important;}
+.phone_edit {background-image: url(../../img/icons/telephone_edit.png) !important;}
+.phone_error {background-image: url(../../img/icons/telephone_error.png) !important;}
+.phone_go {background-image: url(../../img/icons/telephone_go.png) !important;}
+
+/* calendar */
+.calendar {background-image: url(../../img/icons/calendar.png) !important;}
+.calendar_add {background-image: url(../../img/icons/calendar_add.png) !important;}
+.calendar_delete {background-image: url(../../img/icons/calendar_delete.png) !important;}
+.calendar_edit {background-image: url(../../img/icons/calendar_edit.png) !important;}
+.calendar_day {background-image: url(../../img/icons/calendar_view_day.png) !important;}
+.calendar_month {background-image: url(../../img/icons/calendar_view_month.png) !important;}
+.calendar_week {background-image: url(../../img/icons/calendar_view_week.png) !important;}
+
+/* date */
+.date {background-image: url(../../img/icons/date.png) !important;}
+.date_add {background-image: url(../../img/icons/date_add.png) !important;}
+.date_delete {background-image: url(../../img/icons/date_delete.png) !important;}
+.date_edit {background-image: url(../../img/icons/date_edit.png) !important;}
+.date_error {background-image: url(../../img/icons/date_error.png) !important;}
+.date_next {background-image: url(../../img/icons/date_next.png) !important;}
+.date_previous {background-image: url(../../img/icons/date_previous.png) !important;}
+
+/* folders */
+.folder {background-image: url(../../img/icons/folder.png) !important;}
+.folder_add {background-image: url(../../img/icons/folder_add.png) !important;}
+.folder_delete {background-image: url(../../img/icons/folder_delete.png) !important;}
+.folder_edit {background-image: url(../../img/icons/folder_edit.png) !important;}
+.folder_error {background-image: url(../../img/icons/folder_error.png) !important;}
+.folder_explore {background-image: url(../../img/icons/folder_explore.png) !important;}
+.folder_search {background-image: url(../../img/icons/folder_find.png) !important;}
+.folder_key {background-image: url(../../img/icons/folder_key.png) !important;}
+.folder_link {background-image: url(../../img/icons/folder_link.png) !important;}
+.folder_new {background-image: url(../../img/icons/folder_star.png) !important;}
+.folder_user {background-image: url(../../img/icons/folder_user.png) !important;}
+.folder_move_to {background-image: url(../../img/icons/folder_page.png) !important;}
+
+/* media control */
+.eject   { background-image: url(../../img/icons/control_eject_blue.png) !important; }
+.eject_i { background-image: url(../../img/icons/control_eject.png) !important; }
+.end {background-image: url(../../img/icons/control_end_blue.png) !important;}
+.end_i {background-image: url(../../img/icons/control_end.png) !important;}
+.equalizer {background-image: url(../../img/icons/control_equalizer_blue.png) !important;}
+.equalizer_i {background-image: url(../../img/icons/control_equalizer.png) !important;}
+.fastforward {background-image: url(../../img/icons/control_fastforward_blue.png) !important;}
+.fastforward_i {background-image: url(../../img/icons/control_fastforward.png) !important;}
+.pause {background-image: url(../../img/icons/control_pause_blue.png) !important;}
+.pause_i {background-image: url(../../img/icons/control_pause.png) !important;}
+.play {background-image: url(../../img/icons/control_play_blue.png) !important;}
+.play_i {background-image: url(../../img/icons/control_play.png) !important;}
+.repeat {background-image: url(../../img/icons/control_repeat_blue.png) !important;}
+.repeat_i {background-image: url(../../img/icons/control_repeat.png) !important;}
+.rewind {background-image: url(../../img/icons/control_rewind_blue.png) !important;}
+.rewind_i {background-image: url(../../img/icons/control_rewind.png) !important;}
+.start {background-image: url(../../img/icons/control_start_blue.png) !important;}
+.start_i {background-image: url(../../img/icons/control_start.png) !important;}
+.stop {background-image: url(../../img/icons/control_stop_blue.png) !important;}
+.stop_i {background-image: url(../../img/icons/control_stop.png) !important;}
+
+/* notes */
+.note {background-image: url(../../img/icons/note.png) !important;}
+.note_add {background-image: url(../../img/icons/note_add.png) !important;}
+.note_delete {background-image: url(../../img/icons/note_delete.png) !important;}
+.note_edit {background-image: url(../../img/icons/note_edit.png) !important;}
+.note_error {background-image: url(../../img/icons/note_error.png) !important;}
+
+/* pages */
+.page {background-image: url(../../img/icons/page.png) !important;}
+.page_add {background-image: url(../../img/icons/page_add.png) !important;}
+.page_attach {background-image: url(../../img/icons/page_attach.png) !important;}
+.page_copy {background-image: url(../../img/icons/page_copy.png) !important;}
+.page_delete {background-image: url(../../img/icons/delete.png) !important;}
+.page_edit {background-image: url(../../img/icons/page_edit.png) !important;}
+.page_error {background-image: url(../../img/icons/page_error.png) !important;}
+.page_download {background-image: url(../../img/icons/download.png) !important;}
+.page_upload {background-image: url(../../img/icons/upload.png) !important;}
+.page_rename {background-image: url(../../img/icons/page_edit.png) !important;}
+.page_chmod {background-image: url(../../img/icons/key.png) !important;}
+.page_image {background-image: url(../../img/icons/photo_scenery.png) !important;}
+.page_excel {background-image: url(../../img/icons/page_excel.png) !important;}
+.page_find {background-image: url(../../img/icons/page_find.png) !important;}
+.page_paste {background-image: url(../../img/icons/page_paste.png) !important;}
+.page_save {background-image: url(../../img/icons/page_save.png) !important;}
+.page_word {background-image: url(../../img/icons/page_word.png) !important;}
+.page_pdf {background-image: url(../../img/icons/page_white_acrobat.png) !important;}
+.page_flash {background-image: url(../../img/icons/page_white_flash.png) !important;}
+.page_photo {background-image: url(../../img/icons/page_white_camera.png) !important;}
+.page_zip {background-image: url(../../img/icons/page_white_compressed.png) !important;}
+
+/* print */
+.print {background-image: url(../../img/icons/printer.png) !important;}
+.print_error {background-image: url(../../img/icons/printer_error.png) !important;}
+
+/* record shifting */
+.record_first {background-image: url(../../img/icons/resultset_first.png) !important;}
+.record_last {background-image: url(../../img/icons/resultset_last.png) !important;}
+.record_next {background-image: url(../../img/icons/resultset_next.png) !important;}
+.record_previous {background-image: url(../../img/icons/resultset_previous.png) !important;}
+
+/* zoom */
+.zoom {background-image: url(../../img/icons/magnifier-zoom.png) !important;}
+.zoom_fit {background-image: url(../../img/icons/magnifier-zoom-fit.png) !important;}
+.zoom_in {background-image: url(../../img/icons/magnifier-zoom-in.png) !important;}
+.zoom_out {background-image: url(../../img/icons/magnifier-zoom-out.png) !important;}
+
+/* Basket */
+.basket     {background-image: url(../../img/icons/basket.png) !important;}
+.basket_add {background-image: url(../../img/icons/basket_add.png) !important;}
+.basket_go {background-image: url(../../img/icons/basket_go.png) !important;}
+.basket_edit {background-image: url(../../img/icons/basket_edit.png) !important;}
+.basket_remove {background-image: url(../../img/icons/basket_remove.png) !important;}
+
+.briefcase {background-image: url(../../img/icons/briefcase.png) !important;}
+
+/* user */
+.user         {background-image: url(../../img/icons/user.png) !important;}
+.user_add     {background-image: url(../../img/icons/user_add.png) !important;}
+.user_delete  {background-image: url(../../img/icons/user_delete.png) !important;}
+.user_comment {background-image: url(../../img/icons/user_comment.png) !important;}
+.user_edit    {background-image: url(../../img/icons/user_edit.png) !important;}
+.user_male    {background-image: url(../../img/icons/user_suit.png) !important;}
+.user_female  {background-image: url(../../img/icons/user_female.png) !important;}
+.user-girl    {background-image: url(../../img/icons/user_female.png) !important;}
+.user-kid     {background-image: url(../../img/icons/user_green.png) !important;}
+.user-suit    {background-image: url(../../img/icons/user_suit.png) !important;}
+
+/* application info */
+.rosette            {background-image: url(../../img/icons/rosette.png) !important;}
+.software_about     {background-image: url(../../img/icons/application.png) !important;}
+.software_version   {background-image: url(../../img/icons/sum.png) !important;}
+.software_features  {background-image: url(../../img/icons/package.png) !important;}
+.software_credits   {background-image: url(../../img/icons/rosette.png) !important;}
+.software_runtime   {background-image: url(../../img/icons/car.png) !important;}
+
+.link               {background-image: url(../../img/icons/link.png) !important;}
+.link_break         {background-image: url(../../img/icons/link_break.png) !important;}
+.link_home          {background-image: url(../../img/icons/house_link.png) !important;}
+/* Grid Flags */
+.flag_red           {background-image: url(../../img/icons/flag_red.png) !important;}
+.flag_blue          {background-image: url(../../img/icons/flag_blue.png) !important;}
+.flag_green         {background-image: url(../../img/icons/flag_green.png) !important;}
+.flag_yellow        {background-image: url(../../img/icons/flag_yellow.png) !important;}
+
+.reset_field        {background-image: url(../../img/icons/broom.png) !important;}
+/* new added icons */
+.tick_red        {background-image: url(../../img/icons/tick_red.png) !important;}
+.tick_yellow        {background-image: url(../../img/icons/tick_yellow.png) !important;}
+.tick_blue        {background-image: url(../../img/icons/tick_blue.png) !important;}
+.cross_blue        {background-image: url(../../img/icons/cross_blue.png) !important;}
+.cross_green        {background-image: url(../../img/icons/cross_green.png) !important;}
+
+.home  {background-image: url(../../img/icons/home.jpg) !important;}
+
+/* filemanager module style icons */
+
+/* ---- Begin Button Styles --- */
+.chmod_button {
+    background-image: url(../../img/icons/document_gear.png) !important;
+}
+.chmod_directory_button {
+    background-image: url(../../img/icons/folder_gear.png) !important;
+}
+.crop_button {
+    background-image: url(../../img/icons/selection.png) !important;
+}
+.delete_button {
+    background-image: url(../../img/icons/delete.png) !important;
+}
+.delete_directory_button {
+    background-image: url(../../img/icons/folder_delete.png) !important;
+}
+.download_button {
+    background-image: url(../../img/icons/download.png) !important;
+}
+.edit_image_button {
+    background-image: url(../../img/icons/photo_scenery.png) !important;
+}
+.lock_button {
+    background-image: url(../../img/icons/lock.png) !important;
+}
+.new_directory_button {
+    background-image: url(../../img/icons/folder_new.png) !important;
+}
+.rename_button {
+    background-image: url(../../img/icons/element_into_input.png) !important;
+}
+.rename_directory_button {
+    background-image: url(../../img/icons/folder_edit.png) !important;
+}
+.resize_button {
+    background-image: url(../../img/icons/drawing_utensils.png) !important;
+}
+.rotate_button {
+    background-image: url(../../img/icons/replace2.png) !important;
+}
+.save_button {
+    background-image: url(../../img/icons/disk_blue.png) !important;
+}
+.unlock_button {
+    background-image: url(../../img/icons/lock_open.png) !important;
+}
+.upload_button {
+    background-image: url(../../img/icons/upload.png) !important;
+}
+
+.pencil {
+    background-image: url(../../img/icons/pencil.png) !important;
+}
+
+/* lightning */
+.lightning_orange {
+    background-image: url(../../img/icons/lightning_orange.png) !important;
+}
+.lightning_red {
+    background-image: url(../../img/icons/lightning_red.png) !important;
+}
+.lightning_yellow {
+    background-image: url(../../img/icons/lightning_yellow.png) !important;
+}
+
+.clock {
+    background-image: url(../../img/icons/clock.png) !important;
+}
+.clock_add {
+    background-image: url(../../img/icons/clock_add.png) !important;
+}
+.clock_delete {
+    background-image: url(../../img/icons/clock_delete.png) !important;
+}
+.clock_go {
+    background-image: url(../../img/icons/clock_go.png) !important;
+}
+.clock_stop {
+    background-image: url(../../img/icons/clock_stop.png) !important;
+}
+
+/* ---- Begin Icon Styles --- */
+.save_success_icon {
+    padding-left: 25px !important;
+    background-image: url(../img/disk_blue_ok.png) !important;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+}
+.save_error_icon {
+    padding-left: 25px !important;
+    background-image: url(../img/disk_blue_error.png) !important;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+}
+.save_warning_icon {
+    padding-left: 25px !important;
+    background-image: url(../img/disk_blue_warning.png) !important;
+    background-position: 3px 3px;
+    background-repeat: no-repeat;
+}
+
+.legal   {
+    background-image: url(../../img/icons/legal.png) !important;
+}
+
+/* Weather Info */
+.cloudy {
+    background-image: url(../../img/icons/weather_cloudy.png) !important;
+}
+.sunshine {
+    background-image: url(../../img/icons/weather_sun.png) !important;
+}
+

@@ -1,0 +1,164 @@
+@import 'variables.less';
+
+@mediaview-bg-color : @body-background-color;
+@mediaview-bg-border : @base-dark-color;
+@mediaview-score-color : @base-light-color;
+@mediaview-score-bg-color : @body-background-color;
+
+
+/* the wrapper */
+.mediaview.panel, .dataview.panel {
+    background-color: @body-background-color;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.mediaview.wrap, .dataview.wrap {
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.mediaview.item.res-high,
+.dataview.item.res-high {
+    width: 23%;
+}
+.mediaview.item.res-low,
+.dataview.item.res-low {
+    width: 31%;
+}
+
+.mediaview.item.res-very-low,
+.dataview.item.res-very-low {
+    width: 48%;
+}
+
+.dataview.item {
+    width: 23%;
+}
+
+.mediaview.item, .dataview.item {
+    float: left;
+    margin: 10px 0px 0px 0px;
+    color: @base-color; /* #333; */;
+    background-color: @mediaview-bg-color;
+    overflow: hidden;
+    border: 1px solid @mediaview-bg-border;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dataview.left {//
+    position: relative;//
+    float: left;
+}
+
+.dataview.thumb {
+    position: relative;
+    float: left;
+    height: 125px;
+    max-width: 83px !important;
+}
+
+.dataview.right {
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    width: 57%;
+}
+
+.dataview.title {
+  font-size: @dataview-title-font-size;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.dataview.release_date {
+    font-size: @dataview-small-font-size;
+}
+
+.dataview.rate {
+    position: absolute;
+    top: 100px;
+    font-size: @dataview-small-font-size;
+}
+
+.dataview.rate .score {
+    background-color: @mediaview-score-color;
+    color: @mediaview-score-bg-color;
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+}
+
+.dataview.rate img {
+    max-width: 10px;
+}
+
+.dataview.item.small {/* smaller resolution */
+    margin: 10px -25px 0px 0px !important;
+}
+
+.dataview.title.small {
+    width: 100px;
+    font-size: 9px;
+}
+
+/* media dataview */
+
+.mediaview.item {
+    max-width: 220px;
+}
+
+.mediaview.image-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mediaview.wrap.backdrops .image-wrap {
+  max-height: 140px;
+}
+
+.jojo {
+  color: red;
+} 
+
+.mediaview.wrap.posters .image-wrap {
+  max-height: 300px;
+}
+
+.mediaview.wrap.profiles .image-wrap {
+  max-height: 300px;
+}
+
+
+.mediaview.image-wrap img {
+  width: 100%;
+}
+
+.mediaview.name {
+    margin-top: 5px;
+    font-size: @dataview-medium-font-size;
+    font-weight: bold;
+}
+
+.mediaview ul {
+    display: inline;
+    font-size: @dataview-xsmall-font-size;
+    list-style-type: none;
+}
+
+.mediaview ul li {
+    float: left;
+}
+
+.mediaview ul li .inverse {
+    background: #ccc;
+    padding: 1px 5px 1px 5px;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    color: #000000;
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <log>
+        <update>
+            <date>07.04.2014</date>
+            <description>Included TV programs and did a complete modification of CSS on grids and pages</description>
+            <version>2.0</version>
+        </update>
+        <update>
+            <date>22.03.2014</date>
+            <description>Download functionality for images and improved image view</description>
+            <version>1.8</version>
+        </update>
+        <update>
+            <date>21.03.2014</date>
+            <description>Modified loader display with logo</description>
+            <version>1.8</version>
+        </update>
+        <update>
+            <date>05.03.2013</date>
+            <description>Modified the Quicktime trailers to support all resolutions</description>
+            <version>1.5b</version>
+        </update>
+        <update>
+            <date>11.02.2013</date>
+            <description>Updated the boxoffice and popular in the API</description>
+            <version>1.5a</version>
+        </update>
+        <update>
+            <date>05.04.2012</date>
+            <description>New function, Who worked with who</description>
+            <version>1.5</version>
+        </update>
+        <update>
+            <date>05.04.2012</date>
+            <description>Paging added to the grids</description>
+            <version>1.5</version>
+        </update>
+        <update>
+            <date>05.04.2012</date>
+            <description>More History button with dropdown menu added on the history toolbar</description>
+            <version>1.5</version>
+        </update>
+        <update>
+            <date>04.04.2012</date>
+            <description>Trailers can now be accessed in the movie detail panel</description>
+            <version>1.1</version>
+        </update>
+        <update>
+            <date>03.04.2012</date>
+            <description>Checkboxes added for movies and people selection to the search grid</description>
+            <version>1.0.1</version>
+        </update>
+        <update>
+            <date>22.03.2012</date>
+            <description>Movieworld version 1.0 live</description>
+            <version>1.0</version>
+        </update>
+    </log>
+</root>
+

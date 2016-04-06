@@ -1,0 +1,39 @@
+/*
+    Document   : Ext.ux.buttons
+    Created on : 5-jan-2010, 22:02:22
+    Author     : J.vd.Merwe
+    Description:
+       Only styles that relate to the buttons on the menu and buttons
+       This refers to the iconCls config parameter in the Extjs components
+
+*/
+.video  {background-image: url(../img/icons/television.png) !important;}
+.cut   {background-image: url(../img/icons/cut.png) !important;}
+.paste {background-image: url(../img/icons/page_white_paste.png) !important;}
+.view  {background-image: url(../img/icons/zoom.png) !important;}
+.delete {background-image: url(../img/icons/delete.png) !important;}
+
+/* email */
+.mail {background-image: url(../img/icons/email.png) !important;}
+
+/* calendar */
+.calendar {background-image: url(../img/icons/calendar.png) !important;}
+
+/* zoom */
+.zoom_fit {background-image: url(../img/icons/magnifier-zoom-fit.png) !important;}
+.zoom_in {background-image: url(../img/icons/magnifier-zoom-in.png) !important;}
+.zoom_out {background-image: url(../img/icons/magnifier-zoom-out.png) !important;}
+
+
+/* user */
+.user         {background-image: url(../img/icons/user.png) !important;}
+
+.reset_field        {background-image: url(../img/icons/broom.png) !important;}
+
+.delete_button {
+    background-image: url(../img/icons/delete.png) !important;
+}
+
+.legal   {
+    background-image: url(../img/icons/legal.png) !important;
+}
