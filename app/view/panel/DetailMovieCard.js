@@ -185,7 +185,7 @@ Ext.define('Movieworld.view.panel.DetailMovieCard', {
          number: 10,
          start: vote,
          readOnly: true,
-         path: 'resources/plugins/raty/img'
+         path: 'resources/javascript/raty/img'
       });
    },
 
