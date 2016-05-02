@@ -232,14 +232,14 @@ Ext.define('Movieworld.view.panel.DetailTvCard', {
          number: 10,
          start: vote,
          readOnly: true,
-         path: 'resources/plugins/raty/img'
+         path: 'resources/javascript/raty/img'
       });
 
       $('.tv-info .vote').raty({
          number: 10,
          start: vote,
          readOnly: true,
-         path: 'resources/plugins/raty/img'
+         path: 'resources/javascript/raty/img'
       });
 
    },
